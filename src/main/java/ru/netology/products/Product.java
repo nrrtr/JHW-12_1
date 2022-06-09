@@ -38,4 +38,8 @@ public class Product {
     public void setCost(int cost) {
         this.cost = cost;
     }
+
+    public boolean matches(String search) {
+        return this.getName().contains(search);
+    }
 }
