@@ -2,8 +2,6 @@ package ru.netology.products.repository;
 
 import ru.netology.products.Product;
 
-/* Разработайте репозиторий, позволяющий сохранять Product'ы, получать все сохранённые Product'ы
- и удалять по id. Для этого репозиторий будет хранить у себя поле с типом Product[] (массив товаров).*/
 public class Repository {
     private Product[] storage = new Product[0];
 

@@ -3,13 +3,6 @@ package ru.netology.products.manager;
 import ru.netology.products.Product;
 import ru.netology.products.repository.Repository;
 
-import java.security.PublicKey;
-
-
-/* Разработайте менеджера, который умеет добавлять Product'ы в репозиторий
-и осуществлять поиск по ним. Для этого вам нужно создать класс,
-конструктор которого будет принимать параметром репозиторий,
- а также с методом publiс void add(Product product) и методом поиска (см. ниже).*/
 public class Manager {
     private Repository repo;
 
